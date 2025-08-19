@@ -49,4 +49,5 @@ var isSymmetricIterative = function (root) {
             queue.push(left?.right, right?.left)
         }
     }
+    return true
 };
