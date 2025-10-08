@@ -77,10 +77,12 @@ var findKthLargest = function (nums, k) {
 // Sort the array in descending order
 // Pick the kth element
 // Simple and quick but has O(n log n) complexity
+
 // 🔹 Min Heap with Priority Queue
 // Keep inserting elements into a min heap
 // If heap size exceeds k, remove the smallest
 // Efficient with O(n log k) time complexity
+
 // 🔹 Custom Heap Implementation
 // Wrote my own heapify-up and heapify-down methods
 // Maintained a min heap manually
